@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,10 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/sidebar.css" />
+    <link rel="stylesheet" href="./src/css/profile.css" />
+    <link rel="stylesheet" href="./src/css/button.css" />
   </head>
   <body>
-    <main>
+    <div class="page">
       <header class="header">
         <div class="navbar">
           <ul>
@@ -26,21 +27,56 @@
         </div>
         <div class="logo">portfolio</div>
       </header>
-      <div class="sidebar">
-        <div class="sidebar-header">
-          <img
-            class="sidebar--img"
-            src="https://placekitten.com/640/360"
-            alt=""
-          />
+
+      <main class="main">
+        <div class="container">
+          <aside class="sidebar">
+            <div class="sidebar__header">
+              <img src="" alt="" />
+            </div>
+            <div class="sidebar__content">
+              <div class="profile">
+                <img src="" alt="" class="profile__avatar" />
+                <h2 class="profile__name">Ruslan Dubyna</h2>
+                <p class="profile__bio">hello world!</p>
+                <ul class="social">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <img src="" alt="" class="social__icon" />
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <img src="" alt="" class="social__icon" />
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <img src="" alt="" class="social__icon" />
+                    </a>
+                  </li>
+                </ul>
+                <div class="profile__text">
+                  <p>
+                    wake the fuck up, dude <br />
+                    we have a twitter to burn
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__footer">
+              <button
+                class="btn btn--orange"
+                type="button"
+                data-modal="contact-modal"
+              >
+                button
+              </button>
+            </div>
+          </aside>
+          <footer class="footer"></footer>
         </div>
-        <div class="sidebar-content">
-          <h2>Ruslan Dubyna</h2>
-          <p>hello world!</p>
-        </div>
-      </div>
-      <content class="content"></content>
-      <footer class="footer"></footer>
-    </main>
+      </main>
+    </div>
   </body>
 </html>
