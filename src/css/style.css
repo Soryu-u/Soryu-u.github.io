@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -29,24 +33,4 @@ li {
 
 .page {
   overflow: hidden;
-}
-
-.header {
-  display: flex;
-  width: calc(100% - 300px);
-  height: 64px;
-
-  background-color: #a64452;
-
-  position: fixed;
-  right: 0;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-
-  padding: 16px;
-
-  color: #f8f8f8;
 }

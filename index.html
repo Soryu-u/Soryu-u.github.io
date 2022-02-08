@@ -14,18 +14,57 @@
     <link rel="stylesheet" href="./src/css/sidebar.css" />
     <link rel="stylesheet" href="./src/css/profile.css" />
     <link rel="stylesheet" href="./src/css/button.css" />
+    <link rel="stylesheet" href="./src/css/header.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <div class="navbar">
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
+        <div class="header__left">
+          <div class="navbar">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Примеры работ</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link has-subnav" href="#">А тут котики</a>
+
+                <ul class="subnav">
+                  <li>
+                    <a class="subnav__link" href="#">Смешные котики</a>
+                  </li>
+                  <li>
+                    <a class="subnav__link" href="#">Милые котики</a>
+                  </li>
+                  <li>
+                    <a class="subnav__link" href="#">И ещё котики</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="logo">portfolio</div>
+        <div class="header__right">
+          <div class="navbar">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="№">Профиль???</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">А это выход??</a>
+              </li>
+            </ul>
+          </div>
+          <form class="search" action="/" method="post">
+            <input
+              class="search__input"
+              type="text"
+              placeholder="Поиск чего-то"
+            />
+          </form>
+        </div>
       </header>
 
       <main class="main">

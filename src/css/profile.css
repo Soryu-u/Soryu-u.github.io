@@ -1,8 +1,8 @@
 .profile__avatar {
   margin: 0 auto 8px;
   display: block;
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   border: 2px solid #f8f8f8;
   box-shadow: 0 7px 20px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
@@ -10,13 +10,13 @@
 }
 
 .profile__name {
-  font-size: 24px;
+  font-size: 1em;
   text-align: center;
   color: #f8f8f8;
 }
 
 .profile__bio {
-  font-size: 16px;
+  font-size: 0.7em;
   font-weight: 300;
   color: #dedede;
   text-align: center;
@@ -27,7 +27,7 @@
   padding: 24px 0;
   margin: 32px 0;
 
-  font-size: 16px;
+  font-size: 0.6em;
   text-align: center;
 
   border-top: 1px solid #1c1c1c;
