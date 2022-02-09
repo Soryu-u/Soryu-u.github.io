@@ -82,10 +82,10 @@
 }
 
 @media (max-width: 600px) {
-  .content__header > img {
-    height: 10vh;
+  .content__header {
+    display: none;
   }
   .content__item > img {
-    height: 10vh;
+    height: 15vh;
   }
 }
