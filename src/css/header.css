@@ -1,5 +1,5 @@
 .header {
-  display: flex;
+  /* display: flex; */
   width: calc(100% - 300px);
 
   background-color: #202020;
@@ -9,17 +9,23 @@
   right: 0;
 }
 .header__left {
+  float: left;
   width: 60%;
 }
 
 .header__right {
+  float: right;
   width: 40%;
-  display: flex;
-  justify-content: flex-end;
+  right: 0;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+
+.navbar {
 }
 
 .nav__list {
-  display: flex;
+  /* display: flex; */
 }
 
 .nav__item {
@@ -40,11 +46,11 @@
 
 .nav__link {
   display: block;
-
+  float: left;
   font-size: 1.1rem;
   line-height: 1.2;
   text-transform: uppercase;
-  color: white;
+  color: #f8f8f8;
   text-decoration: none;
 
   padding: 1.35rem;
@@ -91,7 +97,7 @@
   display: block;
   padding: 0.45rem 1.2rem;
 
-  color: white;
+  color: #f8f8f8;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -103,4 +109,8 @@
 
 .subnav__link:hover {
   background-color: #ff390d;
+}
+
+.search {
+  float: right;
 }
