@@ -1,29 +1,47 @@
 .content__header {
+  position: relative;
   padding-bottom: 64px;
+  /* height: 60rem; */
+}
+
+.header__text {
+  position: absolute;
+  bottom: 100px;
+  /* left: 16px; */
+  padding-left: 20px;
+  color: #f8f8f8;
+  background-color: #202020a6;
 }
 
 .content__header > img {
   margin-top: -60px;
-  height: 60rem;
+  height: 50vh;
   width: 100%;
   object-fit: cover;
 }
+
 .main__content {
   color: #f8f8f8;
+  overflow: hidden;
+  margin-bottom: 24px;
+  background-color: #2e2c2c3f;
+  border-radius: 20px;
 }
 
 .content__item {
-  overflow: hidden;
-  margin-bottom: 24px;
-  background-color: #2e2c2cb9;
-  border-radius: 20px;
+  border-top: 2px solid #202020a6;
 }
 
 .content__item > img {
   object-fit: cover;
+  height: 50vh;
   width: 100%;
 }
 
+.content__item > h2 {
+  margin: 24px 32px -16px 32px;
+}
+
 .content__item > p {
-  margin: 32px;
+  margin: 32px 32px 32px 32px;
 }
