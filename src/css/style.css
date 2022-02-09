@@ -37,3 +37,9 @@ li {
   padding-left: 5rem;
   padding-right: 5rem;
 }
+
+@media screen and (max-width: 1080px) {
+  .main {
+    padding: 10rem 0 8rem 0;
+  }
+}

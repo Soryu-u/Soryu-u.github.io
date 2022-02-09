@@ -17,7 +17,7 @@
 .header__right {
   float: right;
   width: 40%;
-  right: 0;
+  /* right: 0; */
   /* display: flex;
   justify-content: flex-end; */
 }
@@ -42,7 +42,7 @@
   display: block;
   float: left;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.2;
   text-transform: uppercase;
   color: #f8f8f8;
@@ -55,4 +55,10 @@
 
 .search {
   float: right;
+}
+
+@media screen and (max-width: 1080px) {
+  .header {
+    width: 100%;
+  }
 }
